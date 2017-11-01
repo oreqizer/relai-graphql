@@ -8,7 +8,7 @@ const {
   GraphQLObjectType,
   GraphQLSchema,
   GraphQLString,
-} = require("src/index");
+} = require("graphql");
 const relay = require("graphql-relay");
 
 const db = require("./database");
