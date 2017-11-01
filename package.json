@@ -1,0 +1,44 @@
+{
+  "name": "relai-graphql",
+  "version": "0.0.0",
+  "description": "GraphQL and Relay playground.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src/graphql",
+    "start:dev": "nodemon ./src/graphql --watch ./src/graphql"
+  },
+  "keywords": [
+    "react",
+    "relay",
+    "graphql"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "oreqizer",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "graphql-relay": "^0.5.3",
+    "morgan": "^1.9.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "get-graphql-schema": "^2.1.1",
+    "graphql-cli": "^1.1.0",
+    "nodemon": "^1.12.1",
+    "npm-run-all": "^4.1.1",
+    "prettier": "^1.7.4",
+    "relay-compiler": "^1.4.1",
+    "rimraf": "^2.6.2"
+  }
+}
