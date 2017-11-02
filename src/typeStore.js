@@ -13,7 +13,7 @@ function register(type, value) {
 }
 
 function detectType(obj) {
-  return obj.todos ? types.Todo : types.User;
+  return obj.todos ? types.User : types.Todo;
 }
 
 module.exports = {
