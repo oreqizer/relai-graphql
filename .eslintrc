@@ -1,24 +1,12 @@
 {
   "extends": [
     "airbnb-base",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
   "plugins": [
     "prettier"
   ],
-  "settings": {
-    "import/resolver": {
-      "webpack": {
-        "config": "etc/webpack.build.js"
-      }
-    }
-  },
   "rules": {
-    "prettier/prettier": "error",
-
-    // OFF
-    // ---
-    "camelcase": "off" // graphql
+    "prettier/prettier": "error"
   }
 }
